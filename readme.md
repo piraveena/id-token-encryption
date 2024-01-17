@@ -1,4 +1,5 @@
 
+This repository contains the sample code to decrypt an encrypted id_token and re-encrypt the id-token in the logout flow.
 When the application uses the encrypted id tokens in the logout flow, the app can't share its key pairs with IS to decrypt the token. To support this use case, the expectation in the logout flow is to
 
 1. In the app side, Decrypt the encrypted id_token by app's private key when the ID token is sent to app by IS.
